@@ -1,8 +1,8 @@
 export async function activateApp(appPackage){
     try{
         await driver.activateApp(appPackage)
-        await driver.execute("browserstack_executor: {\"action\": \"adbShell\", \"arguments\": {\"command\" : \"wm set-fix-to-user-rotation enabled\" }}");
-        await driver.setOrientation('PORTRAIT')
+        // await driver.execute("browserstack_executor: {\"action\": \"adbShell\", \"arguments\": {\"command\" : \"wm set-fix-to-user-rotation enabled\" }}");
+        // await driver.setOrientation('PORTRAIT')
     } catch(error){
         console.log(`Failed to activate app: ${error}`)
         throw error;

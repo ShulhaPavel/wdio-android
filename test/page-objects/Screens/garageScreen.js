@@ -42,7 +42,7 @@ class GaragePage{
             .down({ button: 0 })
             .pause(50)
             .up({ button: 0 })
-            .perform({skipRelease: true});
+            .perform(); //{skipRelease: true}
     }
 
     async setModelField(){
@@ -52,7 +52,7 @@ class GaragePage{
             .down({ button: 0 })
             .pause(50)
             .up({ button: 0 })
-            .perform({skipRelease: true});
+            .perform(); //{skipRelease: true}
     }
 
     async clickAddButton(){
