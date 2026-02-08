@@ -1,0 +1,15 @@
+## Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+
+## Dependencies
+packages/
+node_modules/
+
+## Sensitive data
+*.env
+appsettings.Development.json

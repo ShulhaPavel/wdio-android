@@ -1,0 +1,134 @@
+2026-02-08T11:25:49.792Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"deviceName":"Google Pixel 5","platformVersion":"11.0","platformName":"android","browserstack.wdioService":"9.23.2"}],"isNonBstackA11yWDIO":false,"app":"bs://691d095ab9b7d083f8aaa552d46789477ce69dfa","buildIdentifier":"${BUILD_NUMBER}","browserstackLocal":true,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-08T11:25:49.792Z CLI info     Skipping buildIdentifier as buildName is not set or is set to null
+2026-02-08T11:25:49.796Z CLI info     Should start debug utility: undefined
+2026-02-08T11:25:49.796Z CLI info [testhub:module]  [bsuser_zQ5vSR]   [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  Starting testhub from 87258:0
+2026-02-08T11:25:49.797Z CLI info  [bsuser_zQ5vSR]   [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-08T11:25:49.797Z CLI info  [bsuser_zQ5vSR]   [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-08T11:25:50.055Z CLI info  [bsuser_zQ5vSR]   [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-08T11:25:50.056Z CLI info  [bsuser_zQ5vSR]   [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-08T11:25:50.057Z CLI info  [bsuser_zQ5vSR]   [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-02-08T11:25:50.512Z CLI info [testhub:module]  [bsuser_zQ5vSR]   [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  startBuild: response=llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc
+2026-02-08T11:25:50.514Z CLI info  [bsuser_zQ5vSR]  [llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc]  [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-08T11:25:50.762Z CLI info  [bsuser_zQ5vSR]  [llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc]  [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-08T11:25:50.970Z CLI error [percy:percy]  [bsuser_zQ5vSR]  [llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc]  [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  Percy unable to fetch project token: [object Object]
+2026-02-08T11:25:50.970Z CLI error  [bsuser_zQ5vSR]  [llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc]  [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  error invoking callback for eventName: {}
+2026-02-08T11:25:50.970Z CLI error  [bsuser_zQ5vSR]  [llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc]  [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-02-08T11:25:59.853Z CLI info [appautomate:service]  [bsuser_zQ5vSR]  [llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc]  [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  Using app: bs://691d095ab9b7d083f8aaa552d46789477ce69dfa
+2026-02-08T11:26:01.786Z CLI info [sdk:service]  [bsuser_zQ5vSR]  [llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc]  [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  Driver initialized as primary driver: platformIndex=0
+2026-02-08T11:26:02.241Z CLI info  [bsuser_zQ5vSR]  [llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc]  [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-08T11:26:02.246Z CLI info  [bsuser_zQ5vSR]  [llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc]  [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-08T11:26:02.658Z CLI info [testhub:module]  [bsuser_zQ5vSR]  [llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc]  [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  stopBuild: llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc request={"finished_at":"2026-02-08T11:26:02.243Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-08T11:26:02.660Z CLI info  [bsuser_zQ5vSR]  [llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc]  [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-08T11:26:02.914Z CLI info [TEST REPORTING AND ANALYTICS:module]  [bsuser_zQ5vSR]  [llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc]  [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  Visit https://automation.browserstack.com/builds/llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc to view build report, insights, and many more debugging information all at one place!
+2026-02-08T11:26:05.473Z CLI info [main]  [bsuser_zQ5vSR]  [llvzz6flnkgf7exlhbnbm9kjb7egrwdtwf1hnhnc]  [6dc66da0-37ac-4a66-8960-5cf6550bd9bf]  Received graceful signal termination, performing cleanup
+2026-02-08T11:27:50.927Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"deviceName":"Google Pixel 5","platformVersion":"11.0","platformName":"android","browserstack.wdioService":"9.23.2"}],"isNonBstackA11yWDIO":false,"app":"bs://691d095ab9b7d083f8aaa552d46789477ce69dfa","buildIdentifier":"${BUILD_NUMBER}","browserstackLocal":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-08T11:27:50.928Z CLI info     Skipping buildIdentifier as buildName is not set or is set to null
+2026-02-08T11:27:50.928Z CLI info     Should start debug utility: undefined
+2026-02-08T11:27:50.928Z CLI info [testhub:module]  [bsuser_zQ5vSR]   [93740101-697d-4613-b83b-bf9ef99038d2]  Starting testhub from 87416:0
+2026-02-08T11:27:50.929Z CLI info  [bsuser_zQ5vSR]   [93740101-697d-4613-b83b-bf9ef99038d2]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-08T11:27:50.930Z CLI info  [bsuser_zQ5vSR]   [93740101-697d-4613-b83b-bf9ef99038d2]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-08T11:27:51.219Z CLI info  [bsuser_zQ5vSR]   [93740101-697d-4613-b83b-bf9ef99038d2]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-08T11:27:51.220Z CLI info  [bsuser_zQ5vSR]   [93740101-697d-4613-b83b-bf9ef99038d2]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-08T11:27:51.220Z CLI info  [bsuser_zQ5vSR]   [93740101-697d-4613-b83b-bf9ef99038d2]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-02-08T11:27:51.898Z CLI info [testhub:module]  [bsuser_zQ5vSR]   [93740101-697d-4613-b83b-bf9ef99038d2]  startBuild: response=o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp
+2026-02-08T11:27:51.900Z CLI info  [bsuser_zQ5vSR]  [o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp]  [93740101-697d-4613-b83b-bf9ef99038d2]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-08T11:27:52.442Z CLI info  [bsuser_zQ5vSR]  [o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp]  [93740101-697d-4613-b83b-bf9ef99038d2]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-08T11:27:52.647Z CLI error [percy:percy]  [bsuser_zQ5vSR]  [o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp]  [93740101-697d-4613-b83b-bf9ef99038d2]  Percy unable to fetch project token: [object Object]
+2026-02-08T11:27:52.647Z CLI error  [bsuser_zQ5vSR]  [o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp]  [93740101-697d-4613-b83b-bf9ef99038d2]  error invoking callback for eventName: {}
+2026-02-08T11:27:52.648Z CLI error  [bsuser_zQ5vSR]  [o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp]  [93740101-697d-4613-b83b-bf9ef99038d2]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-02-08T11:27:52.648Z CLI info [appautomate:service]  [bsuser_zQ5vSR]  [o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp]  [93740101-697d-4613-b83b-bf9ef99038d2]  Using app: bs://691d095ab9b7d083f8aaa552d46789477ce69dfa
+2026-02-08T11:27:53.736Z CLI info [sdk:service]  [bsuser_zQ5vSR]  [o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp]  [93740101-697d-4613-b83b-bf9ef99038d2]  Driver initialized as primary driver: platformIndex=0
+2026-02-08T11:27:54.172Z CLI info  [bsuser_zQ5vSR]  [o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp]  [93740101-697d-4613-b83b-bf9ef99038d2]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-08T11:27:54.176Z CLI info  [bsuser_zQ5vSR]  [o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp]  [93740101-697d-4613-b83b-bf9ef99038d2]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-08T11:27:54.588Z CLI info [testhub:module]  [bsuser_zQ5vSR]  [o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp]  [93740101-697d-4613-b83b-bf9ef99038d2]  stopBuild: o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp request={"finished_at":"2026-02-08T11:27:54.173Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-08T11:27:54.588Z CLI info  [bsuser_zQ5vSR]  [o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp]  [93740101-697d-4613-b83b-bf9ef99038d2]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-08T11:27:54.817Z CLI info [TEST REPORTING AND ANALYTICS:module]  [bsuser_zQ5vSR]  [o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp]  [93740101-697d-4613-b83b-bf9ef99038d2]  Visit https://automation.browserstack.com/builds/o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp to view build report, insights, and many more debugging information all at one place!
+2026-02-08T11:27:54.824Z CLI info [main]  [bsuser_zQ5vSR]  [o5iczcfpspj2izp6l46exas85bkqdonjqzsc1ffp]  [93740101-697d-4613-b83b-bf9ef99038d2]  Received graceful signal termination, performing cleanup
+2026-02-08T11:31:36.304Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"deviceName":"Google Pixel 5","platformVersion":"11.0","platformName":"android","browserstack.wdioService":"9.23.2"}],"isNonBstackA11yWDIO":false,"app":"./examples/WikipediaSample.apk","buildIdentifier":"${BUILD_NUMBER}","browserstackLocal":true,"testObservability":true,"testObservabilityOptions":{"buildTag":["bstack_sample"]},"accessibility":null,"browserStackLocalOptions":{"forcelocal":false,"localIdentifier":"webdriverio-appium-app-browserstack-repo"},"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":["bstack_sample"]}
+2026-02-08T11:31:36.305Z CLI info     Skipping buildIdentifier as buildName is not set or is set to null
+2026-02-08T11:31:36.305Z CLI info     Should start debug utility: undefined
+2026-02-08T11:31:36.305Z CLI info [testhub:module]  [bsuser_zQ5vSR]   [6cc078bc-04bc-4dbc-a146-55465f38eca2]  Starting testhub from 87525:0
+2026-02-08T11:31:36.306Z CLI info  [bsuser_zQ5vSR]   [6cc078bc-04bc-4dbc-a146-55465f38eca2]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-08T11:31:36.306Z CLI info  [bsuser_zQ5vSR]   [6cc078bc-04bc-4dbc-a146-55465f38eca2]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-08T11:31:36.570Z CLI info  [bsuser_zQ5vSR]   [6cc078bc-04bc-4dbc-a146-55465f38eca2]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-08T11:31:36.571Z CLI info  [bsuser_zQ5vSR]   [6cc078bc-04bc-4dbc-a146-55465f38eca2]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-08T11:31:36.571Z CLI info  [bsuser_zQ5vSR]   [6cc078bc-04bc-4dbc-a146-55465f38eca2]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-02-08T11:31:37.250Z CLI info [testhub:module]  [bsuser_zQ5vSR]   [6cc078bc-04bc-4dbc-a146-55465f38eca2]  startBuild: response=zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu
+2026-02-08T11:31:37.252Z CLI info  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-08T11:31:38.652Z CLI info  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-08T11:31:38.866Z CLI error [percy:percy]  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  Percy unable to fetch project token: [object Object]
+2026-02-08T11:31:38.867Z CLI error  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  error invoking callback for eventName: {}
+2026-02-08T11:31:38.867Z CLI error  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-02-08T11:31:42.973Z CLI info [appautomate:service]  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  Using app: ./examples/WikipediaSample.apk
+2026-02-08T11:31:42.973Z CLI error  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  error invoking callback for eventName: {}
+2026-02-08T11:31:42.973Z CLI error  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  Error: [Invalid app path] app path /Users/pavel/wdio_appium_android/examples/WikipediaSample.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-02-08T11:31:44.907Z CLI info [sdk:service]  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  Driver initialized as primary driver: platformIndex=0
+2026-02-08T11:31:45.340Z CLI info  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-08T11:31:45.344Z CLI info  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-08T11:31:45.766Z CLI info [testhub:module]  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  stopBuild: zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu request={"finished_at":"2026-02-08T11:31:45.341Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-08T11:31:45.766Z CLI info  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-08T11:31:45.995Z CLI info [TEST REPORTING AND ANALYTICS:module]  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  Visit https://automation.browserstack.com/builds/zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu to view build report, insights, and many more debugging information all at one place!
+2026-02-08T11:31:48.551Z CLI info [main]  [bsuser_zQ5vSR]  [zfojtzgfof3donqnq1ach0ywvkmxo063nv1axvtu]  [6cc078bc-04bc-4dbc-a146-55465f38eca2]  Received graceful signal termination, performing cleanup
+2026-02-08T11:35:55.405Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"deviceName":"Google Pixel 5","platformVersion":"11.0","platformName":"android","appium:app":"bs://691d095ab9b7d083f8aaa552d46789477ce69dfa","wdioService":"9.23.2"}],"isNonBstackA11yWDIO":false,"app":"bs://691d095ab9b7d083f8aaa552d46789477ce69dfa","buildIdentifier":"${BUILD_NUMBER}","browserstackLocal":false,"testObservability":true,"testObservabilityOptions":{"buildTag":["bstack_sample"]},"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":["bstack_sample"]}
+2026-02-08T11:35:55.405Z CLI info     Skipping buildIdentifier as buildName is not set or is set to null
+2026-02-08T11:35:55.405Z CLI info     Should start debug utility: undefined
+2026-02-08T11:35:55.406Z CLI info [testhub:module]  [bsuser_zQ5vSR]   [6afca9e4-44f0-4a75-8fbf-b53425008364]  Starting testhub from 87688:0
+2026-02-08T11:35:55.406Z CLI info  [bsuser_zQ5vSR]   [6afca9e4-44f0-4a75-8fbf-b53425008364]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-08T11:35:55.407Z CLI info  [bsuser_zQ5vSR]   [6afca9e4-44f0-4a75-8fbf-b53425008364]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-08T11:35:55.690Z CLI info  [bsuser_zQ5vSR]   [6afca9e4-44f0-4a75-8fbf-b53425008364]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-08T11:35:55.691Z CLI info  [bsuser_zQ5vSR]   [6afca9e4-44f0-4a75-8fbf-b53425008364]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-08T11:35:55.692Z CLI info  [bsuser_zQ5vSR]   [6afca9e4-44f0-4a75-8fbf-b53425008364]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-02-08T11:35:56.207Z CLI info [testhub:module]  [bsuser_zQ5vSR]   [6afca9e4-44f0-4a75-8fbf-b53425008364]  startBuild: response=if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs
+2026-02-08T11:35:56.209Z CLI info  [bsuser_zQ5vSR]  [if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs]  [6afca9e4-44f0-4a75-8fbf-b53425008364]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-08T11:35:56.762Z CLI info  [bsuser_zQ5vSR]  [if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs]  [6afca9e4-44f0-4a75-8fbf-b53425008364]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-08T11:35:56.972Z CLI error [percy:percy]  [bsuser_zQ5vSR]  [if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs]  [6afca9e4-44f0-4a75-8fbf-b53425008364]  Percy unable to fetch project token: [object Object]
+2026-02-08T11:35:56.972Z CLI error  [bsuser_zQ5vSR]  [if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs]  [6afca9e4-44f0-4a75-8fbf-b53425008364]  error invoking callback for eventName: {}
+2026-02-08T11:35:56.972Z CLI error  [bsuser_zQ5vSR]  [if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs]  [6afca9e4-44f0-4a75-8fbf-b53425008364]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-02-08T11:35:56.973Z CLI info [appautomate:service]  [bsuser_zQ5vSR]  [if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs]  [6afca9e4-44f0-4a75-8fbf-b53425008364]  Using app: bs://691d095ab9b7d083f8aaa552d46789477ce69dfa
+2026-02-08T11:35:58.742Z CLI info [sdk:service]  [bsuser_zQ5vSR]  [if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs]  [6afca9e4-44f0-4a75-8fbf-b53425008364]  Driver initialized as primary driver: platformIndex=0
+2026-02-08T11:35:59.171Z CLI info  [bsuser_zQ5vSR]  [if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs]  [6afca9e4-44f0-4a75-8fbf-b53425008364]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-08T11:35:59.175Z CLI info  [bsuser_zQ5vSR]  [if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs]  [6afca9e4-44f0-4a75-8fbf-b53425008364]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-08T11:35:59.584Z CLI info [testhub:module]  [bsuser_zQ5vSR]  [if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs]  [6afca9e4-44f0-4a75-8fbf-b53425008364]  stopBuild: if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs request={"finished_at":"2026-02-08T11:35:59.172Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-08T11:35:59.585Z CLI info  [bsuser_zQ5vSR]  [if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs]  [6afca9e4-44f0-4a75-8fbf-b53425008364]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-08T11:35:59.795Z CLI info [TEST REPORTING AND ANALYTICS:module]  [bsuser_zQ5vSR]  [if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs]  [6afca9e4-44f0-4a75-8fbf-b53425008364]  Visit https://automation.browserstack.com/builds/if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs to view build report, insights, and many more debugging information all at one place!
+2026-02-08T11:35:59.803Z CLI info [main]  [bsuser_zQ5vSR]  [if5ids8kdw48zurz1nxkdjgyeszlbtzmvmfl2trs]  [6afca9e4-44f0-4a75-8fbf-b53425008364]  Received graceful signal termination, performing cleanup
+2026-02-08T11:50:02.471Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"deviceName":"Google Pixel 5","platformVersion":"11.0","platformName":"android","browserstack.wdioService":"9.23.2"}],"isNonBstackA11yWDIO":false,"app":"bs://691d095ab9b7d083f8aaa552d46789477ce69dfa","buildIdentifier":"${BUILD_NUMBER}","browserstackLocal":true,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-08T11:50:02.471Z CLI info     Skipping buildIdentifier as buildName is not set or is set to null
+2026-02-08T11:50:02.480Z CLI info     Should start debug utility: undefined
+2026-02-08T11:50:02.480Z CLI info [testhub:module]  [bsuser_zQ5vSR]   [0238d035-07f7-47f3-9afc-c9d3f424c776]  Starting testhub from 87875:0
+2026-02-08T11:50:02.480Z CLI info  [bsuser_zQ5vSR]   [0238d035-07f7-47f3-9afc-c9d3f424c776]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-08T11:50:02.481Z CLI info  [bsuser_zQ5vSR]   [0238d035-07f7-47f3-9afc-c9d3f424c776]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-08T11:50:02.746Z CLI info  [bsuser_zQ5vSR]   [0238d035-07f7-47f3-9afc-c9d3f424c776]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-08T11:50:02.747Z CLI info  [bsuser_zQ5vSR]   [0238d035-07f7-47f3-9afc-c9d3f424c776]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-08T11:50:02.747Z CLI info  [bsuser_zQ5vSR]   [0238d035-07f7-47f3-9afc-c9d3f424c776]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-02-08T11:50:03.451Z CLI info [testhub:module]  [bsuser_zQ5vSR]   [0238d035-07f7-47f3-9afc-c9d3f424c776]  startBuild: response=xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj
+2026-02-08T11:50:03.453Z CLI info  [bsuser_zQ5vSR]  [xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj]  [0238d035-07f7-47f3-9afc-c9d3f424c776]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-08T11:50:03.673Z CLI info  [bsuser_zQ5vSR]  [xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj]  [0238d035-07f7-47f3-9afc-c9d3f424c776]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-08T11:50:03.883Z CLI error [percy:percy]  [bsuser_zQ5vSR]  [xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj]  [0238d035-07f7-47f3-9afc-c9d3f424c776]  Percy unable to fetch project token: [object Object]
+2026-02-08T11:50:03.884Z CLI error  [bsuser_zQ5vSR]  [xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj]  [0238d035-07f7-47f3-9afc-c9d3f424c776]  error invoking callback for eventName: {}
+2026-02-08T11:50:03.884Z CLI error  [bsuser_zQ5vSR]  [xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj]  [0238d035-07f7-47f3-9afc-c9d3f424c776]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-02-08T11:50:08.103Z CLI info [appautomate:service]  [bsuser_zQ5vSR]  [xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj]  [0238d035-07f7-47f3-9afc-c9d3f424c776]  Using app: bs://691d095ab9b7d083f8aaa552d46789477ce69dfa
+2026-02-08T11:50:09.708Z CLI info [sdk:service]  [bsuser_zQ5vSR]  [xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj]  [0238d035-07f7-47f3-9afc-c9d3f424c776]  Driver initialized as primary driver: platformIndex=0
+2026-02-08T11:50:10.167Z CLI info  [bsuser_zQ5vSR]  [xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj]  [0238d035-07f7-47f3-9afc-c9d3f424c776]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-08T11:50:10.171Z CLI info  [bsuser_zQ5vSR]  [xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj]  [0238d035-07f7-47f3-9afc-c9d3f424c776]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-08T11:50:10.809Z CLI info [testhub:module]  [bsuser_zQ5vSR]  [xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj]  [0238d035-07f7-47f3-9afc-c9d3f424c776]  stopBuild: xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj request={"finished_at":"2026-02-08T11:50:10.168Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-08T11:50:10.811Z CLI info  [bsuser_zQ5vSR]  [xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj]  [0238d035-07f7-47f3-9afc-c9d3f424c776]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-08T11:50:11.437Z CLI info [TEST REPORTING AND ANALYTICS:module]  [bsuser_zQ5vSR]  [xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj]  [0238d035-07f7-47f3-9afc-c9d3f424c776]  Visit https://automation.browserstack.com/builds/xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj to view build report, insights, and many more debugging information all at one place!
+2026-02-08T11:50:14.000Z CLI info [main]  [bsuser_zQ5vSR]  [xjlvzotjqmuevcu7k3zmfs7bt04b9hqb551cw9nj]  [0238d035-07f7-47f3-9afc-c9d3f424c776]  Received graceful signal termination, performing cleanup
